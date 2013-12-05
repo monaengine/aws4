@@ -27,12 +27,15 @@ clone the project in your /root
 set the environment variables
 
 AWS_ACCESS_KEY=
+
 AWS_SECRET_KEY=
+
 EC2_URL=
 
 and the variables in the script aws4.sh:
 
 MY_INSTANCE_ID =
+
 MAIL_RECIPIENTS =
 
 
