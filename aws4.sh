@@ -44,7 +44,7 @@ for volume in $(cat $VOLUME_LIST); do
 	  then
 	  
 			sleep 30
-			SNAP_STATUS=$(ec2-describe-snapshots -region eu-west-1 --aws-access-key $ACCESS_KEY_ID --aws-secret-key $SECRET_ACCESS_KEY --filter description="$DESC" | grep "SNAPSHOT"  | awk '{ print $4 }')	
+			SNAP_STATUS=$(ec2-describe-snapshots --filter description="$DESC" | grep "SNAPSHOT"  | awk '{ print $4 }')	
 
 	  else
 			echo "Snapshot $SNAP_ID $SNAP_NAME status $SNAP_STATUS " | mail -s "AWS EC2 snapshot KO" $MAIL_RECIPIENTS
