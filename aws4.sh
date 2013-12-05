@@ -3,7 +3,7 @@ source /etc/profile
  
 MY_INSTANCE_ID=
 LOG="/var/log/backup/ec2-snapshot_$(date +%Y%m%d).log"
-VOLUME_LIST="/root/script/volume_list"
+VOLUME_LIST="/root/aws4/volume_list"
 MAIL_RECIPIENTS=
 
 #
