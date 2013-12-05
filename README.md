@@ -20,7 +20,7 @@ Installation
 
 you have to create a folder in /var/log with the command
 
-# mkdir /var/log/backup
+ mkdir /var/log/backup
 
 clone the project in your /root
 
