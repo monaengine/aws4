@@ -32,6 +32,8 @@ AWS_SECRET_KEY=
 
 EC2_URL=
 
+AWS_DEFAULT_REGION
+
 and the variables in the script aws4.sh:
 
 MY_INSTANCE_ID =
